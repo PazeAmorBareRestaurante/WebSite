@@ -75,7 +75,7 @@ nav.navbar .navbar-brand span{
 } */
 
 
-@media screen and (min-width: 2500px) {
+@media screen and (min-width: 3800px) {
 	#main .hero-body .title {
 		font-size: 120px
 	}
