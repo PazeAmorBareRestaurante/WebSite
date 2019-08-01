@@ -1,0 +1,14 @@
+/* TEAM */
+
+	Author: Leonnardo Verol
+	Location/From: Rio de Janeiro, Rio de Janeiro, Brazil
+
+	Author: Julio Kubit
+	Location/From: Rio de Janeiro, Rio de Janeiro, Brazil
+
+
+/* SITE */
+	Last Update: 2019y/08m/01d
+	Language: Portuguese
+	Technology: HTML5, CSS3, JS, Bulma.io, Git, Git LFS, formsubmit.co, Google Fonts
+	IDE: Visual Studio Code

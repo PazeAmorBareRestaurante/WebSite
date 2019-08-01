@@ -1,0 +1,89 @@
+html, body{
+        font-family: 'Roboto','Open Sans', sans-serif;
+}
+
+nav.navbar .navbar-menu .navbar-item,
+nav.navbar .navbar-brand .navbar-item,
+nav.navbar .navbar-burger.burger,
+nav.navbar .navbar-link,
+nav.navbar, nav .navbar-menu, nav.navbar .navbar-brand>a.navbar-item:hover,
+nav .navbar-menu .navbar-item,
+nav .navbar-link, .credits {
+	background-color: #E2B14A;
+	color: #222222;
+}
+nav.navbar .navbar-brand span{
+	/* font-weight: bold; */
+	font-size: 20px;
+	color: #B9412A;
+}
+
+.main-bg {
+        background-image: url('/assets/img/bg-640.jpg');
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+		filter: blur(5px);
+		position: relative;
+}
+
+.hero-body
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.main-bg .main-bg-overlay {
+		background-color: rgba(0, 0, 0, 0.5);
+}
+
+#main .hero-body .title, #main .hero-body .subtitle {
+	color: #E2B14A;
+	text-shadow: 1px 0px 5px rgba(0, 0, 0, 1);
+}
+
+#main .hero-body .title {
+	font-size: 50px
+}
+
+#main .hero-body .subtitle {
+	font-size: 30px
+}
+
+
+@media screen and (min-width: 725px) {
+	#main .hero-body .title {
+	font-size: 60px
+	}
+
+	#main .hero-body .subtitle {
+		font-size: 40px
+	}
+}
+
+/* @media screen and (min-width: 1280px) {
+    #main .hero-body .title {
+		font-size: 100px
+	}
+
+	#main .hero-body .subtitle {
+		font-size: 60px
+	}
+} */
+
+
+@media screen and (min-width: 2500px) {
+	#main .hero-body .title {
+		font-size: 120px
+	}
+
+	#main .hero-body .subtitle {
+		font-size: 80px
+	}
+	.main-bg {
+		background-image: url('/assets/img/bg-1280.jpg');
+	}
+}
