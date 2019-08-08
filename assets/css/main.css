@@ -1,4 +1,4 @@
-html, body{
+html, body {
         font-family: 'Roboto','Open Sans', sans-serif;
 }
 
@@ -8,12 +8,11 @@ nav.navbar .navbar-burger.burger,
 nav.navbar .navbar-link,
 nav.navbar, nav .navbar-menu, nav.navbar .navbar-brand>a.navbar-item:hover,
 nav .navbar-menu .navbar-item,
-nav .navbar-link, .credits {
+nav .navbar-link {
 	background-color: #E2B14A;
 	color: #222222;
 }
-nav.navbar .navbar-brand span{
-	/* font-weight: bold; */
+nav.navbar .navbar-brand span {
 	font-size: 20px;
 	color: #B9412A;
 }
@@ -53,6 +52,59 @@ nav.navbar .navbar-brand span{
 	font-size: 30px
 }
 
+.about, .contact {
+	background-color: #FBFBFB;
+}
+
+.about, .contact {
+	padding: 50px 25px;
+}
+
+.about .content, .contact .content
+{
+	margin: 0 auto;
+	max-width: 725px;
+}
+
+.about .content p
+{
+	text-indent: 50px;
+}
+
+.about h2, .contact h2
+{
+	padding-bottom: 20px;
+}
+
+.about h2 {
+	color: #E2B14A;
+}
+
+.contact h2, .contact label {
+	color: #B9412A;
+}
+
+.contact {
+	background-color: #E2B14A;
+}
+
+.footer
+{
+	background-color:#222222;
+}
+
+.address .content ul {
+	list-style: none;
+}
+
+.address .content ul li, .address .content ul strong{
+	color:#FBFBFB;
+}
+
+.footer .credits {
+	margin: 20px 0;
+}
+
 
 @media screen and (min-width: 725px) {
 	#main .hero-body .title {
@@ -62,28 +114,46 @@ nav.navbar .navbar-brand span{
 	#main .hero-body .subtitle {
 		font-size: 40px
 	}
+
+	.about, .contact {
+		padding: 100px 25px;
+	}
+
+	.about h2, .contact h2 {
+		font-size: 40px;
+		padding-bottom: 40px;
+	}
 }
 
-/* @media screen and (min-width: 1280px) {
-    #main .hero-body .title {
-		font-size: 100px
-	}
-
-	#main .hero-body .subtitle {
-		font-size: 60px
-	}
-} */
-
-
 @media screen and (min-width: 3800px) {
-	#main .hero-body .title {
+	#main .hero-body .title
+	{
 		font-size: 120px
 	}
 
-	#main .hero-body .subtitle {
+	#main .hero-body .subtitle
+	{
 		font-size: 80px
 	}
-	.main-bg {
+
+	.main-bg
+	{
 		background-image: url('/assets/img/bg-1280.jpg');
+	}
+
+	.about
+	{
+		padding: 120px 25px;
+	}
+
+	.about .content
+	{
+		max-width: 1600px;
+	}
+
+	.about h2
+	{
+		font-size: 60px;
+		padding-bottom: 60px;
 	}
 }

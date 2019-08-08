@@ -8,7 +8,8 @@
 
 
 /* SITE */
-	Last Update: 2019y/08m/01d
+	Last Update: 2019y/08m/08d
 	Language: Portuguese
-	Technology: HTML5, CSS3, JS, Bulma.io, Git, Git LFS, formsubmit.co, Google Fonts
+	Technology: HTML5, CSS3, JS, Bulma.io, Git, Git LFS,
+				formsubmit.co, Google Fonts, realfavicongenerator.net, Netlify
 	IDE: Visual Studio Code
