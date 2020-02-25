@@ -131,6 +131,18 @@ nav.navbar .navbar-menu a.navbar-item:focus
 	margin: 25px auto;
 }
 
+.footer .social {
+	margin: 50px auto;
+}
+.footer .social ul {
+	text-align: center;
+}
+
+.footer .social ul li {
+	display: inline;
+	margin: auto 25px;
+}
+
 .footer .credits {
 	margin: 20px 0;
 }
