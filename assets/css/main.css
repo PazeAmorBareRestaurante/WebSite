@@ -110,6 +110,10 @@ nav.navbar .navbar-menu a.navbar-item:focus
 	background-color: #222222;
 }
 
+.footer a:hover, .footer a:active, .footer a:focus {
+	color: #B9412A;
+}
+
 .address {
 	color: #f5f5f5;
 }
