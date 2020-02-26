@@ -12,8 +12,21 @@ nav .navbar-link {
 	background-color: #E2B14A;
 	color: #222222;
 }
+
+nav.navbar.is-fixed-top {
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
 nav.navbar .navbar-brand span {
 	font-size: 20px;
+	color: #B9412A;
+}
+
+nav.navbar .navbar-menu a.navbar-item:hover,
+nav.navbar .navbar-menu a.navbar-item:focus
+{
 	color: #B9412A;
 }
 
