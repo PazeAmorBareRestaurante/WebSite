@@ -38,3 +38,21 @@ document.addEventListener('DOMContentLoaded', () =>
         }
 });
 
+elementList = document.querySelectorAll('a[href^="#"]');
+elementList.forEach(element =>
+{
+        const target = element.getAttribute("href");
+        element.addEventListener('click', (element) =>
+        {
+				element.preventDefault();
+                const targetLocation = document.querySelector(target).offsetTop;
+
+                const fixedNavElementList = document.getElementsByClassName("navbar-brand");
+                const fixedNavHeight = fixedNavElementList[0].getBoundingClientRect().height;
+
+                window.scrollTo({
+                        top: (targetLocation - fixedNavHeight),
+                        behavior: 'smooth'
+                });
+        })
+});
