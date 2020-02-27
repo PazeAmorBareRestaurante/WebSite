@@ -11,8 +11,8 @@
 		<title>Restaurante Paz e Amor</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-
 		<link rel="stylesheet" href="assets/vendors/bulma-0.7.5/css/bulma.min.css" media="screen">
+		<link rel="stylesheet" href="assets/vendors/fontawesome-free-5.12.1-web/css/all.min.css" media="screen">
 
 		<link href="assets/css/main.css" rel="stylesheet">
 
@@ -123,7 +123,8 @@
 							<div class="field">
 								<label id="message" class="label">Menssagem</label>
 								<div class="control">
-									<textarea class="textarea" name="message" placeholder="Menssagem" required></textarea>
+									<textarea class="textarea" name="message" placeholder="Menssagem"
+										required></textarea>
 								</div>
 							</div>
 							<input type="text" name="_honey" style="display:none">
@@ -142,16 +143,46 @@
 		</main>
 
 		<footer class="footer">
-			<section class="address">
+			<div class="container">
+				<section class="address">
 					<ul>
-						<li><strong>Telefone: </strong>(21)2523-0496 / (21)2521-5617</li>
-						<li><strong>Endereço: </strong>
-							Rua Garcia d'Avila, 173 - Ipanema,
-							Rio de Janeiro - RJ, 22421-010</li>
+						<li><strong>Telefone: </strong><a href="tel:+552125230496">(21)2523-0496</a> / <a
+								href="tel:+552125215617">(21)2521-5617</a></li>
+						<li><strong>Endereço: </strong><a
+								href="https://www.google.com.br/maps/place/Paz+e+Amor/@-22.9820023,-43.2091908,15z/data=!4m5!3m4!1s0x0:0x381e0d72e3617d22!8m2!3d-22.9820023!4d-43.2091908"
+								target="_blank" rel="noopener noreferrer">
+								Rua Garcia d'Avila, 173 - Ipanema,
+								Rio de Janeiro - RJ, 22421-010</a></li>
 						<li><strong>Funcionamento: </strong>
-							Todos os dias: 06h00 ate 24h00</li>
+							Todos os dias de 06h00 as 24h00</li>
 					</ul>
-			</section>
+				</section>
+				<section class="social">
+					<ul>
+						<li>
+							<a target="_blank" rel="noopener noreferrer"
+								href="https://www.facebook.com/RestaurantePazeAmor/">
+								<span class="is-sr-only">Facebook</span>
+								<i class="fab fa-facebook-square fa-3x"></i>
+							</a>
+						</li>
+						<li>
+							<a target="_blank" rel="noopener noreferrer"
+								href="https://www.instagram.com/restaurantepazeamor/">
+								<span class="is-sr-only">Instagram</span>
+								<i class="fab fa-instagram fa-3x"></i>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="credits">
+					<a target="_blank" rel="noopener noreferrer" href="https://restaurantepazeamor.com.br/humans.txt">
+						<span class="is-sr-only">Creditos</span>
+						<img src="assets/img/humanstxt-isolated-blank.gif"
+							alt="Humans Txt Logo">
+					</a>
+				</section>
+			</div>
 		</footer>
 
 		<script src="assets/js/index.js"></script>
