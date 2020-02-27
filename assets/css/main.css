@@ -88,6 +88,10 @@ nav.navbar .navbar-menu a.navbar-item:focus
 	text-indent: 50px;
 }
 
+.contact {
+	background-color: #E2B14A;
+}
+
 .about h2,
 .contact h2 {
 	padding-bottom: 20px;
@@ -102,8 +106,12 @@ nav.navbar .navbar-menu a.navbar-item:focus
 	color: #B9412A;
 }
 
-.contact {
-	background-color: #E2B14A;
+.contact .field {
+	margin: 25px auto;
+}
+
+.contact .field label.label {
+	margin: 0;
 }
 
 .footer {
