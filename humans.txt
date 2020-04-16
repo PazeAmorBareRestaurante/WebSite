@@ -1,0 +1,15 @@
+/* TEAM */
+
+	Developer: Leonnardo Verol
+	Location/From: Rio de Janeiro, Rio de Janeiro, Brazil
+
+	Developer: Julio Kubit
+	Location/From: Rio de Janeiro, Rio de Janeiro, Brazil
+
+
+/* SITE */
+	Last Update: 2020y/02m/27d
+	Language: Portuguese
+	Technology: HTML5, CSS3, JS, Bulma.io, Git, Git LFS, Font Awesome,
+				formsubmit.co, Google Fonts, realfavicongenerator.net, Netlify
+	IDE: Visual Studio Code
